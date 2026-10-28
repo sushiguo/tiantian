@@ -1,7 +1,7 @@
 {
-    "versionCode":  610282128,
-    "versionName":  "610282128",
-    "apkUrl":  "https://github.com/sushiguo/tiantian-release/releases/latest/download/lele.apk",
-    "changelog":  "新增应用内升级（设置页「检查更新」：拉取本仓库清单→比对版本→下载安装）与「源订阅地址」一键复制；三面 versionCode 同步",
-    "publishedAt":  "2026-10-28 21:40:00"
+    "versionCode":  610282157,
+    "versionName":  "610282157",
+    "apkUrl":  "https://github.com/sushiguo/tiantian/releases/latest/download/lele.apk",
+    "changelog":  "修复发布仓库名（tiantian）；应用内升级与源订阅走 GitHub 镜像候选；下载播放链路根治、广告屏蔽补漏",
+    "publishedAt":  "2026-10-28 22:02:23"
 }
