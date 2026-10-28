@@ -1,0 +1,7 @@
+{
+  "versionCode": 610282031,
+  "versionName": "610282031",
+  "apkUrl": "https://github.com/sushiguo/tiantian-release/releases/latest/download/youyou.apk",
+  "changelog": "下载播放链路根治：下载改为输出本地 HLS 清单（保留 AES-128 密钥、fMP4 init 段、BYTERANGE），加密/fMP4 源下载后可正常播放；本地文件播放失败不再误报「切换线路」；广告屏蔽补漏：IJK 内核 master playlist 改为下钻最高码率变体后清洗",
+  "publishedAt": "2026-10-28 21:03:46"
+}
