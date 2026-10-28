@@ -7,9 +7,9 @@
 
 | 用途 | 天天 | 优优 | 乐乐 |
 | --- | --- | --- | --- |
-| 版本清单 | https://raw.githubusercontent.com/sushiguo/tiantian-release/main/tiantian/update.json | .../youyou/update.json | .../lele/update.json |
-| 源订阅 | https://raw.githubusercontent.com/sushiguo/tiantian-release/main/sources/tiantian.json | .../sources/youyou.json | .../sources/lele.json |
-| APK 直链 | https://github.com/sushiguo/tiantian-release/releases/latest/download/tiantian.apk | .../youyou.apk | .../lele.apk |
+| 版本清单 | https://raw.githubusercontent.com/sushiguo/tiantian/main/tiantian/update.json | .../youyou/update.json | .../lele/update.json |
+| 源订阅 | https://raw.githubusercontent.com/sushiguo/tiantian/main/sources/tiantian.json | .../sources/youyou.json | .../sources/lele.json |
+| APK 直链 | https://github.com/sushiguo/tiantian/releases/latest/download/tiantian.apk | .../youyou.apk | .../lele.apk |
 
 > 中国大陆直连 `raw.githubusercontent.com` / `github.com` 会超时。应用端已内置镜像候选
 > （`ghfast.top`、`gh-proxy.com` 优先，直连与 jsDelivr 兜底），逐个尝试。
