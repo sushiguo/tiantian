@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>天天影视 / 优优影视 / 乐乐影视 · 下载</title>
+<style>
+  :root{
+    --bg:#0f1115; --card:#171a21; --line:#262b36; --fg:#e8ecf3; --muted:#9aa4b5;
+    --accent:#4c8dff; --ok:#2fbf71;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; padding:28px 18px 56px; background:var(--bg); color:var(--fg);
+    font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;
+    -webkit-text-size-adjust:100%;
+  }
+  .wrap{max-width:560px;margin:0 auto}
+  h1{font-size:22px;margin:0 0 6px;letter-spacing:.3px}
+  .sub{color:var(--muted);font-size:14px;line-height:1.6;margin:0 0 22px}
+  .card{
+    background:var(--card); border:1px solid var(--line); border-radius:14px;
+    padding:18px 18px 20px; margin-bottom:16px;
+  }
+  .card h2{font-size:16px;margin:0 0 4px}
+  .card p{color:var(--muted);font-size:13px;line-height:1.6;margin:0 0 14px}
+  .btn{
+    display:block; text-align:center; text-decoration:none; font-weight:600; font-size:15px;
+    color:#fff; background:var(--accent); border-radius:10px; padding:13px 16px;
+    margin-bottom:10px; transition:filter .15s;
+  }
+  .btn:active{filter:brightness(.88)}
+  .btn.ghost{background:transparent;border:1px solid var(--line);color:var(--fg);font-weight:500}
+  .btn.sub{border-color:#33507d;color:#bcd3ff}
+  .tag{
+    display:inline-block;font-size:11px;color:var(--muted);
+    border:1px solid var(--line);border-radius:999px;padding:2px 9px;margin-left:6px;vertical-align:2px;
+  }
+  .steps{counter-reset:s;margin:0;padding:0;list-style:none}
+  .steps li{
+    counter-increment:s; position:relative; padding-left:30px; margin-bottom:11px;
+    font-size:13px; line-height:1.65; color:var(--muted);
+  }
+  .steps li::before{
+    content:counter(s); position:absolute; left:0; top:1px;
+    width:20px;height:20px;border-radius:50%;background:#232937;color:#aebbcf;
+    font-size:11px;display:flex;align-items:center;justify-content:center;
+  }
+  .ver{color:var(--muted);font-size:12px;text-align:center;margin-top:26px;line-height:1.8}
+  code{background:#232937;padding:1px 5px;border-radius:4px;font-size:12px}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <h1>天天影视 · 优优影视 · 乐乐影视</h1>
+  <p class="sub">三面可同时安装、互不冲突。点击按钮直接下载安装包；已装旧版会覆盖升级，收藏与观看记录保留。</p>
+
+  <div class="card">
+    <h2>天天影视 <span class="tag">全量 353 源</span></h2>
+    <p>菲 + 壁全部内容，适合一台设备用全部资源。</p>
+    <a class="btn" href="https://github.com/sushiguo/tiantian-release/releases/latest/download/tiantian.apk">下载天天影视</a>
+  </div>
+
+  <div class="card">
+    <h2>优优影视 <span class="tag">纯菲 207 源</span></h2>
+    <p>只含菲类（电影/剧集/动漫/综艺/央视/卫视等），不含壁类。</p>
+    <a class="btn" href="https://github.com/sushiguo/tiantian-release/releases/latest/download/youyou.apk">下载优优影视</a>
+  </div>
+
+  <div class="card">
+    <h2>乐乐影视 <span class="tag">纯壁 146 源</span></h2>
+    <p>只含壁类，不含菲类影视。</p>
+    <a class="btn" href="https://github.com/sushiguo/tiantian-release/releases/latest/download/lele.apk">下载乐乐影视</a>
+  </div>
+
+  <div class="card">
+    <h2>安装步骤</h2>
+    <ol class="steps">
+      <li>点上面的按钮下载 APK（约 65 MB，建议 Wi-Fi）。</li>
+      <li>下载完成后点击安装。若提示「未知来源」，请到系统设置里允许本浏览器/文件管理器安装应用。</li>
+      <li>装好后打开应用。设置页有「检查更新」，以后可直接在应用内升级。</li>
+      <li>需要换源时，进「源订阅」填入订阅地址即可，不用重装。</li>
+    </ol>
+  </div>
+
+  <div class="card">
+    <h2>全部版本</h2>
+    <p>想手动挑选某一版，或看更新说明：</p>
+    <a class="btn ghost" href="https://github.com/sushiguo/tiantian-release/releases">打开所有版本</a>
+    <a class="btn ghost sub" href="https://github.com/sushiguo/tiantian-release">查看仓库与源订阅</a>
+  </div>
+
+  <p class="ver">当前版本 610282128 · 三面版号同步</p>
+</div>
+</body>
+</html>
