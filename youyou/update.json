@@ -1,7 +1,17 @@
 {
-    "versionCode":  610282157,
-    "versionName":  "610282157",
+    "versionCode":  610290858,
+    "versionName":  "610290858",
     "apkUrl":  "https://github.com/sushiguo/tiantian/releases/latest/download/youyou.apk",
-    "changelog":  "修复发布仓库名（tiantian）；应用内升级与源订阅走 GitHub 镜像候选；下载播放链路根治、广告屏蔽补漏",
-    "publishedAt":  "2026-10-28 22:11:27"
+    "size":  64902729,
+    "sha256":  "1d039f4d350f6753f27fdf868f99d5a2c6d30466be72f2b6c6d22dbbfda6a96c",
+    "changelog":  "升级链路对齐轩轩音乐：设置-关于内检查更新（打开即查、有更新弹窗确认后升级）、前台服务通知栏进度、断点续传与多镜像并行下载、四重校验（大小/sha256/包名/版本）；「指引·关于」拆分为「使用指引」与「关于」",
+    "publishedAt":  "2026-10-29 09:18:09",
+    "variants":  [
+                     {
+                         "abi":  "universal",
+                         "url":  "https://github.com/sushiguo/tiantian/releases/latest/download/youyou.apk",
+                         "size":  64902729,
+                         "sha256":  "1d039f4d350f6753f27fdf868f99d5a2c6d30466be72f2b6c6d22dbbfda6a96c"
+                     }
+                 ]
 }
