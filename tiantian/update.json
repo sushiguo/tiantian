@@ -1,7 +1,17 @@
 {
-    "versionCode":  610282157,
-    "versionName":  "610282157",
+    "versionCode":  610290858,
+    "versionName":  "610290858",
     "apkUrl":  "https://github.com/sushiguo/tiantian/releases/latest/download/tiantian.apk",
-    "changelog":  "修复发布仓库名（tiantian）；应用内升级与源订阅走 GitHub 镜像候选；下载播放链路根治、广告屏蔽补漏",
-    "publishedAt":  "2026-10-28 22:11:27"
+    "size":  68327916,
+    "sha256":  "12036db5ac05c8395437ac46d53a8c09aa1df790d1a737e4eaa6b37c8bb454b1",
+    "changelog":  "升级链路对齐轩轩音乐：设置-关于内检查更新（打开即查、有更新弹窗确认后升级）、前台服务通知栏进度、断点续传与多镜像并行下载、四重校验（大小/sha256/包名/版本）；「指引·关于」拆分为「使用指引」与「关于」",
+    "publishedAt":  "2026-10-29 09:17:59",
+    "variants":  [
+                     {
+                         "abi":  "universal",
+                         "url":  "https://github.com/sushiguo/tiantian/releases/latest/download/tiantian.apk",
+                         "size":  68327916,
+                         "sha256":  "12036db5ac05c8395437ac46d53a8c09aa1df790d1a737e4eaa6b37c8bb454b1"
+                     }
+                 ]
 }
